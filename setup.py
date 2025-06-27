@@ -31,7 +31,9 @@ setup(
         "ned-statistics=qurator.sbb.ned:ned_statistics",
         "show-ner-models=qurator.sbb.ner:show_models",
 
-        "batchel=qurator.sbb.ned:run_on_corpus"
+        "batchel=qurator.sbb.ned:run_on_corpus",
+
+        "datasette-setup-fulltext=qurator.sbb.datasette:setup_datasette_fulltext"
       ]
     },
     python_requires='>=3.6.0',
